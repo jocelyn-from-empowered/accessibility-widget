@@ -151,7 +151,7 @@
             // replace 'widget.css' with '[https://your-domain.com/widget.css](https://your-domain.com/widget.css)'
             const styleLink = document.createElement('link');
             styleLink.rel = 'stylesheet';
-            styleLink.href = 'widget.css'; 
+            styleLink.href = 'https://accessibility-widget-psi.vercel.app/widget.css'; 
             this.shadow.appendChild(styleLink);
 
             const wrapper = document.createElement('div');
