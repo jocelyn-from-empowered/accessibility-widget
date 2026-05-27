@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Widget Demo</title>
+    <!-- Demo Host Site Styles -->
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 2rem; }
+        header { border-bottom: 2px solid #eee; margin-bottom: 2rem; padding-bottom: 1rem; }
+        h1 { color: #2c3e50; }
+        .demo-card { background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+        .demo-image { width: 100%; max-width: 400px; height: auto; border-radius: 4px; display: block; margin: 1rem 0; }
+        .btn-demo { background: #3498db; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem; }
+        .btn-demo:hover { background: #2980b9; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Demo Site</h1>
+        <p>This is a standard web page to test the embeddable accessibility widget. The widget script is loaded at the bottom of the page.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About This Page</h2>
+            <p>Try using the floating accessibility button in the bottom right corner to adjust the page's appearance. The widget uses Shadow DOM to protect its own styles, while injecting targeted CSS overrides into this host page to apply your preferences.</p>
+            <a href="#more-info">Click here for more information</a>
+        </section>
+
+        <section class="demo-card">
+            <h3>Visual Content</h3>
+            <p>Below is a sample image to test the "Hide Images" and "Image Tooltips" tools.</p>
+            <img src="[https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80](https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80)" alt="Beautiful landscape of rolling hills" aria-label="A scenic view of green hills under a cloudy sky" class="demo-image">
+            <button class="btn-demo">Sample Button</button>
+        </section>
+        
+        <section style="margin-top: 50px;">
+            <h3>Animation Test</h3>
+            <div style="width: 50px; height: 50px; background: #e74c3c; animation: spin 2s linear infinite; border-radius: 10px;"></div>
+            <style>@keyframes spin { 100% { transform: rotate(360deg); } }</style>
+            <p style="font-size: 0.9em; color: #666; margin-top: 10px;">Test the "Stop Animations" feature on this spinning box.</p>
+        </section>
+    </main>
+
+    <!-- Load the widget -->
+    <script src="widget.js"></script>
+</body>
+</html>

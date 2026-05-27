@@ -1,0 +1,11 @@
+{
+  "name": "accessibility-widget",
+  "version": "1.0.0",
+  "description": "An embeddable accessibility widget",
+  "main": "widget.js",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "author": "",
+  "license": "MIT"
+}
