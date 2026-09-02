@@ -568,3 +568,195 @@
     transition: none;
   }
 }
+
+/* ESD BRAND THEME OVERRIDES */
+
+/*
+  Empowered Digital Marketing brand palette:
+  Dark blue: #173973
+  White: #FFFFFF
+  Orange: #FD5021
+  Yellow: #FFD300
+  Bright blue: #26B1E8
+*/
+
+#service-discovery {
+  --esd-bg: #FFFFFF;
+  --esd-text-main: #173973;
+  --esd-text-muted: #173973;
+  --esd-accent: #26B1E8;
+  --esd-border: #26B1E8;
+  --esd-card-bg: #FFFFFF;
+
+  background-color: #FFFFFF;
+  color: #173973;
+}
+
+#service-discovery .esd-ambient-glow {
+  background-color: #26B1E8;
+  opacity: 0.08;
+}
+
+#service-discovery *:focus-visible {
+  outline-color: #FD5021;
+}
+
+#service-discovery .esd-subtitle {
+  color: #FD5021;
+}
+
+#service-discovery .esd-title {
+  color: #173973;
+}
+
+#service-discovery .esd-search-container {
+  background-color: #FFFFFF;
+}
+
+#service-discovery .esd-search-icon {
+  color: #173973;
+}
+
+#service-discovery .esd-search-container:focus-within .esd-search-icon {
+  color: #FD5021;
+}
+
+#service-discovery .esd-search-input {
+  background-color: #FFFFFF;
+  border-color: #26B1E8;
+  color: #173973;
+  box-shadow: none;
+}
+
+#service-discovery .esd-search-input::placeholder {
+  color: #173973;
+  opacity: 0.7;
+}
+
+#service-discovery .esd-search-input:focus {
+  border-color: #FD5021;
+  box-shadow: 0 0 0 1px #FD5021;
+}
+
+#service-discovery .esd-clear-btn {
+  color: #173973;
+}
+
+#service-discovery .esd-clear-btn:hover {
+  color: #FD5021;
+}
+
+#service-discovery .esd-category-btn {
+  background-color: #FFFFFF;
+  border-color: #173973;
+  color: #173973;
+}
+
+#service-discovery .esd-category-btn:hover {
+  background-color: #FFD300;
+  border-color: #173973;
+  color: #173973;
+}
+
+#service-discovery .esd-category-btn.active {
+  background-color: #173973;
+  border-color: #173973;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+#service-discovery .esd-card {
+  background-color: #FFFFFF;
+  border-color: #26B1E8;
+  color: #173973;
+  box-shadow: none;
+}
+
+#service-discovery .esd-card:hover {
+  border-color: #173973;
+}
+
+#service-discovery .esd-card-glow {
+  background: #26B1E8;
+  opacity: 0;
+}
+
+#service-discovery .esd-card:hover .esd-card-glow {
+  opacity: 0.08;
+}
+
+#service-discovery .esd-icon-box {
+  background-color: #FFFFFF;
+  border-color: #26B1E8;
+  color: #173973;
+  box-shadow: none;
+}
+
+#service-discovery .esd-card:hover .esd-icon-box {
+  background-color: #173973;
+  border-color: #173973;
+  color: #FFFFFF;
+}
+
+#service-discovery .esd-card-title {
+  color: #173973;
+}
+
+#service-discovery .esd-card:hover .esd-card-title {
+  background: none;
+  color: #173973;
+  -webkit-text-fill-color: #173973;
+}
+
+#service-discovery .esd-card-arrow {
+  color: #FD5021;
+}
+
+#service-discovery .esd-card-desc,
+#service-discovery .esd-card:hover .esd-card-desc {
+  color: #173973;
+}
+
+#service-discovery .esd-card-tags {
+  border-top-color: #26B1E8;
+}
+
+#service-discovery .esd-tag,
+#service-discovery .esd-card:hover .esd-tag {
+  background-color: #FFFFFF;
+  border-color: #26B1E8;
+  color: #173973;
+}
+
+#service-discovery .esd-tag.esd-tag-match {
+  background-color: #FFD300;
+  border-color: #FD5021;
+  color: #173973;
+}
+
+#service-discovery .esd-empty-icon {
+  background-color: #FFD300;
+  color: #173973;
+}
+
+#service-discovery .esd-empty-title {
+  color: #173973;
+}
+
+#service-discovery .esd-empty-text {
+  color: #173973;
+}
+
+#service-discovery .esd-empty-btn {
+  background: #FD5021;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+#service-discovery .esd-empty-btn:hover {
+  background: #173973;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+/* END ESD BRAND THEME OVERRIDES */
